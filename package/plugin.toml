@@ -1,0 +1,13 @@
+id = "station-link"
+name = "Station Link"
+version = "0.1.0"
+entry = "control.sh"
+description = "Переключает uniProxyUrl колонки на свой сервер (apply/rollback/check) с бэкапом оригинала"
+permissions = ["exec"]
+
+[launch]
+kind = "binary"
+mode = "oneshot"
+path = "control.sh"
+interpreter = "sh"
+args = []
